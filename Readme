@@ -8,7 +8,7 @@
 
 ##  Features
 
-* ** Kawaii Aesthetic UI:** Designed with a clean pastel interface and expressive Japanese kaomojis (`(｡♥‿♥｡)`, `(•̀ᴗ•́)و`, `(✿◡‿◡)`) throughout headers and chat logs.
+* ** Kawaii Aesthetic UI:** Designed with a clean pastel interface and expressive kaomojis  throughout headers and chat logs.
 * **  Persistent Long-Term Memory:** Save facts about yourself into a local JSON memory bank so Nova remembers who you are across sessions without bloating your system.
 * ** Quick Notes Sidebar:** Jot down code snippets, ideas, or to-do lists directly inside the app interface.
 * **  Multimodal Vision:** Upload pictures (outfits, food ingredients, plants, code screenshots) and let Nova analyze them instantly.
