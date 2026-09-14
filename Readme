@@ -1,4 +1,4 @@
-# 💖 Nova - Your Personal AI Companion
+#  Nova - Your Personal AI Companion
 
 <div align="center">
   <p><b>A lightweight, zero-storage, multimodal AI companion built with Streamlit, Google GenAI SDK, and Kawaii aesthetics! (•̀ᴗ•́)و</b></p>
@@ -6,19 +6,19 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-* **🎨 Kawaii Aesthetic UI:** Designed with a clean pastel interface and expressive Japanese kaomojis (`(｡♥‿♥｡)`, `(•̀ᴗ•́)و`, `(✿◡‿◡)`) throughout headers and chat logs.
-* **🧠 Persistent Long-Term Memory:** Save facts about yourself into a local JSON memory bank so Nova remembers who you are across sessions without bloating your system.
-* **📝 Quick Notes Sidebar:** Jot down code snippets, ideas, or to-do lists directly inside the app interface.
-* **👁️ Multimodal Vision:** Upload pictures (outfits, food ingredients, plants, code screenshots) and let Nova analyze them instantly.
-* **🎙️ Speech-to-Text & Text-to-Speech (Voice Loop):** Talk directly to Nova using your microphone (`streamlit-mic-recorder`) and listen to her reply back out loud using dynamic `gTTS` audio synthesis.
-* **🌍 Multi-Language Support:** Seamlessly switch between English, Spanish, French, Japanese, Hindi, and German. Nova automatically updates her language for text, speech recognition, and audio responses.
-* **🎭 Custom Personalities:** Switch between multiple vibe settings (*Friendly & Casual*, *Witty & Sarcastic Friend*, *Wise Zen Mentor*, *Hyper-Supportive Cheerleader*, and *Strict Coding Coach*).
+* ** Kawaii Aesthetic UI:** Designed with a clean pastel interface and expressive Japanese kaomojis (`(｡♥‿♥｡)`, `(•̀ᴗ•́)و`, `(✿◡‿◡)`) throughout headers and chat logs.
+* **  Persistent Long-Term Memory:** Save facts about yourself into a local JSON memory bank so Nova remembers who you are across sessions without bloating your system.
+* ** Quick Notes Sidebar:** Jot down code snippets, ideas, or to-do lists directly inside the app interface.
+* **  Multimodal Vision:** Upload pictures (outfits, food ingredients, plants, code screenshots) and let Nova analyze them instantly.
+* **  Speech-to-Text & Text-to-Speech (Voice Loop):** Talk directly to Nova using your microphone (`streamlit-mic-recorder`) and listen to her reply back out loud using dynamic `gTTS` audio synthesis.
+* **  Multi-Language Support:** Seamlessly switch between English, Spanish, French, Japanese, Hindi, and German. Nova automatically updates her language for text, speech recognition, and audio responses.
+* **  Custom Personalities:** Switch between multiple vibe settings (*Friendly & Casual*, *Witty & Sarcastic Friend*, *Wise Zen Mentor*, *Hyper-Supportive Cheerleader*, and *Strict Coding Coach*).
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** [Streamlit](https://streamlit.io/)
 * **AI Engine:** Google GenAI SDK (`google-genai` with `gemini-3.6-flash`)
@@ -27,7 +27,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone or Download the Project
 Make sure you have all project files (`app.py`, requirements, etc.) in your local directory.
