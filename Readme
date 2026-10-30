@@ -1,149 +1,85 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:FFD1DC,50:F4A6C0,100:C9A7EB&height=210&section=header&text=Nova&fontSize=70&fontColor=ffffff&fontAlignY=42&desc=%E2%9C%A7%20your%20personal%20AI%20companion%20%E2%9C%A7&descSize=20&descAlignY=68" alt="Nova - your personal AI companion" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F4C2CF,100:D6718A&height=150&section=header&text=Nova&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=your%20personal%20AI%20companion&descSize=18&descAlignY=62" alt="Nova - your personal AI companion" />
 
-### ˚₊‧꒰ა ☆ ໒꒱ ‧₊˚
+**A lightweight multimodal AI companion built with Streamlit and the Google GenAI SDK. (•̀ᴗ•́)و**
 
-**a tiny, cozy AI friend who remembers you, sees your pictures, and talks back** (•̀ᴗ•́)و ♡
-
-<br>
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FFB6C9?style=for-the-badge&logo=streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-C9A7EB?style=for-the-badge&logo=python&logoColor=white)
-![Google GenAI](https://img.shields.io/badge/Google_GenAI-FFC8A2?style=for-the-badge&logo=google&logoColor=white)
-![Voice](https://img.shields.io/badge/Voice_%2B_Vision-F4A6C0?style=for-the-badge)
-
-<br>
-
-･ﾟ✧*:･ﾟ✧　　✧･ﾟ: *✧･ﾟ
+![Python](https://img.shields.io/badge/Python-D6718A?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-D6718A?style=flat-square&logo=streamlit&logoColor=white)
+![Google GenAI](https://img.shields.io/badge/Google%20GenAI-D6718A?style=flat-square&logo=google&logoColor=white)
 
 </div>
 
-<br>
+---
 
-## ✿ meet nova ✿
+<!-- Add a screenshot or demo GIF here:
+<div align="center"><img src="screenshot.png" width="700" alt="Nova screenshot" /></div>
+-->
 
-> *"hi hi! i'm Nova (｡•̀ᴗ-)✧ tell me about your day, show me your lunch, or ask me to help with your code. i'll remember you next time!"*
+## About
 
-Nova is a chat companion that lives on your own computer. She saves what she learns about you in small local files, so there's no database or cloud storage to set up. ♡
+Nova is a chat companion that runs on your own computer. She remembers facts about you, looks at your pictures, listens and talks back, and can switch between personalities. Everything she saves stays in small local JSON files, so there is no database or cloud storage to set up.
 
-<br>
+## Features
 
-<div align="center">
+| Feature | What it does |
+|---|---|
+| **Pastel UI** | Clean pastel interface with kaomojis in the headers and chat |
+| **Long-term memory** | Save facts about yourself to a local JSON file so Nova remembers you between sessions |
+| **Quick notes** | Keep code snippets, ideas and to-do lists in the sidebar |
+| **Vision** | Upload photos (outfits, ingredients, plants, code screenshots) and Nova analyzes them |
+| **Voice loop** | Talk with your microphone and hear Nova's reply out loud |
+| **Six languages** | English, Spanish, French, Japanese, Hindi and German for text, speech recognition and audio |
+| **Personalities** | Friendly and Casual, Witty and Sarcastic Friend, Wise Zen Mentor, Hyper-Supportive Cheerleader, Strict Coding Coach |
 
-･ﾟ✧*:･ﾟ✧　　✧･ﾟ: *✧･ﾟ
-
-</div>
-
-## ♡ what nova can do
-
-<div align="center">
-
-| | feature | what it does |
-|:---:|:---|:---|
-| 🌸 | **kawaii ui** | soft pastel look with kaomojis in the headers and chat (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ |
-| 🧠 | **long-term memory** | save facts about you to a local JSON file so Nova remembers you between sessions |
-| 📝 | **quick notes** | keep snippets, ideas and to-do lists in the sidebar |
-| 👀 | **vision** | upload outfits, food, plants or code screenshots and she'll look at them |
-| 🎙️ | **voice loop** | talk with your mic and hear her reply out loud |
-| 🌍 | **6 languages** | English, Spanish, French, Japanese, Hindi, German |
-| 🎭 | **personalities** | pick the vibe you need today (see below) |
-
-</div>
-
-<br>
-
-## ✧ choose her vibe
-
-<div align="center">
-
-| vibe | she is... |
-|:---:|:---|
-| 🍓 **Friendly & Casual** | your easygoing bestie |
-| 😏 **Witty & Sarcastic Friend** | funny, a little spicy |
-| 🍵 **Wise Zen Mentor** | calm and thoughtful |
-| 📣 **Hyper-Supportive Cheerleader** | "you can do it!!" energy |
-| 💻 **Strict Coding Coach** | no excuses, clean code |
-
-</div>
-
-<br>
-
-<div align="center">
-
-･ﾟ✧*:･ﾟ✧　　✧･ﾟ: *✧･ﾟ
-
-</div>
-
-## ☁ made with
-
-<div align="center">
+## Tech stack
 
 | | |
-|:---:|:---|
-| 🎀 **Frontend** | [Streamlit](https://streamlit.io/) |
-| 🤖 **AI engine** | Google GenAI SDK (`google-genai`) |
-| 🔊 **Voice** | `gTTS` for speech out, `streamlit-mic-recorder` for speech in |
-| 🗂️ **Storage** | tiny local JSON files: `memory.json`, `notes.json` |
+|---|---|
+| **Frontend** | [Streamlit](https://streamlit.io/) |
+| **AI engine** | Google GenAI SDK (`google-genai`) |
+| **Voice** | `gTTS` for text-to-speech, `streamlit-mic-recorder` for speech-to-text |
+| **Storage** | Local JSON files: `memory.json`, `notes.json` |
 
-</div>
+## Getting started
 
-<br>
+**1. Clone the project**
 
-## ⋆｡°✩ getting started
-
-**1 · clone nova**
 ```bash
 git clone https://github.com/Meo-ow0/Nova-your-personal-AI-companion-.git
 cd Nova-your-personal-AI-companion-
 ```
 
-**2 · install the packages**
+**2. Install the packages**
+
 ```bash
 pip install streamlit google-genai gtts pillow streamlit-mic-recorder
 ```
 
-**3 · add your API key** 🔑
-Get a free Gemini key from [Google AI Studio](https://aistudio.google.com/) and set it the way `app.py` expects (environment variable or secrets file). Keep it secret and never upload it to GitHub!
+**3. Add your API key**
 
-**4 · wake her up**
+Get a Gemini API key from [Google AI Studio](https://aistudio.google.com/) and set it the way `app.py` expects (environment variable or secrets file). Keep it private and never upload it to GitHub.
+
+**4. Run the app**
+
 ```bash
 streamlit run app.py
 ```
 
-Open the link that appears in your terminal and say hi! (๑˃ᴗ˂)ﻭ
+Open the link Streamlit prints in your terminal.
 
-<br>
+## Privacy
 
-<div align="center">
+- Memory and notes are stored only on your computer, in `memory.json` and `notes.json`.
+- Add `memory.json`, `notes.json` and your key file to `.gitignore` so they never get uploaded.
+- Chat text, photos and voice are sent to Google's API to get a reply, so don't share anything you want to keep private.
 
-･ﾟ✧*:･ﾟ✧　　✧･ﾟ: *✧･ﾟ
+## Contact
 
-</div>
-
-## ☾ privacy notes
-
-- 🌙 Memory and notes stay on **your** computer, in `memory.json` and `notes.json`.
-- 🌙 Put `memory.json`, `notes.json` and your key file in `.gitignore` so they never get uploaded.
-- 🌙 Chat text, photos and voice are sent to Google's API to get a reply, so don't share anything you want to keep private.
-
-<br>
-
-## ✰ coming soon
-
-- [ ] 📸 screenshots and a demo GIF
-- [ ] 🎵 more voices
-- [ ] 🌷 more personalities and themes
-
-<br>
+Made by Shreya · [LinkedIn](https://www.linkedin.com/in/shreya-8ab04536b/)
 
 <div align="center">
 
-made with ♡ by **Shreya**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-C9A7EB?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreya-8ab04536b/)
-[![GitHub](https://img.shields.io/badge/GitHub-FFB6C9?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Meo-ow0)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A7EB,50:F4A6C0,100:FFD1DC&height=110&section=footer" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D6718A,100:F4C2CF&height=80&section=footer" alt="" />
 
 </div>
